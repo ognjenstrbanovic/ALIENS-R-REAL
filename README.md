@@ -5,6 +5,7 @@ Level 1 - *an automatic table with date search*... with the data in the form of 
 I met this criteria, but, unfortunately, did not meet the criteria for the optional Level 2; this was to set multiple searchable filters - city, state, country, and shape - using multiple ```input``` tags and/or select dropdowns.  
 I was disappointed to have not been able to finish the bonus part of this assignment. However, JavaScript was still very foreign to me at the time, and I worked hard to complete the base requirements, so I should not be discouraged!  
 Thank you for reading!  
+
 **Objectives for JavaScript and DOM Manipulation Unit:**  
 - Understand JS fundamentals: arrays, conditionals, loops, functions, objects.
 - Understand functional programming with map, forEach.
