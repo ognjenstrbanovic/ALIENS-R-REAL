@@ -1,6 +1,7 @@
 # javascript-challenge
-Objectives
-- Understand JS fundamentals: arrays, conditionals, loops, functions, objects.
+
+**Objectives for JavaScript and DOM Manipulation Unit:**
+*- Understand JS fundamentals: arrays, conditionals, loops, functions, objects.
 - Understand functional programming with map, forEach.
 - Work with common data structures.
 - Be introduced to data driven documents (d3.js).
@@ -12,4 +13,4 @@ Objectives
 - Understand events.
 - Use d3 to attach events to DOM elements.
 - Dynamically manipulate the DOM through events.
-- Filter data with JavaScript.
+- Filter data with JavaScript.*
