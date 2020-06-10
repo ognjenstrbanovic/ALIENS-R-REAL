@@ -21,7 +21,6 @@ loadData(tableData);
 var filterButton = document.querySelector("#filter-btn");
 // Getting a reference to the input element on the page with the id property set to 'datetime'
 var inputElement = document.querySelector("#datetime");
-console.log(tableData);
 function handleEnter() {
     // Prevent the page from refreshing
     d3.event.preventDefault();
@@ -50,9 +49,6 @@ function handleClick(event) {
     // Get the value property of the input element
     var inputValue = inputElement.value;
     var filteredData = tableData.filter(sighting => sighting.datetime === inputValue);
-    console.log(inputValue);
-    console.log(filteredData);
-    console.log(JSON.stringify(filteredData));
     loadFilteredData(filteredData);
 };
 // We can use the `on` function in d3 to attach an event to the function
@@ -62,5 +58,4 @@ d3.select(`#filter-btn`).on("click", handleEnter);
 var newText;
 inputElement.addEventListener("input", function() {
     newText = event.target.value;
-    console.log(newText);
 });
