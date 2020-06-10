@@ -1,6 +1,6 @@
 # javascript-challenge
 We here at **ALIENS-R-REAL** certainly believe that extraterrestrial life exists! That is why we have collected all of the eye-witness reports/sightings of UFO's (however reliable that may be) to prove this. The matter will finally be put to rest when we put this information online for the world to see. 🙄 😄  
-I've been tasked to create a dynamic table with filtering capabilites based on a dataset provided. Highly distrustful (paranoid? 😅) of other technologies, the only programming languages that can be trusted are pure JS, HTML, CSS, and the CDM D3.js.  
+I've been tasked to create a dynamic table with filtering capabilites based on a dataset provided. Highly distrustful (paranoid? 😅) of other technologies, the only programming languages that can be trusted are pure JS, HTML, CSS, and the CDM D3.js (it is important to note that the HTML and CSS was given to us; so the website design was already there, but the functionality was not).  
 Level 1 - *an automatic table with date search*... with the data in the form of an array of JS objects, the task was to "write code that appends a table to your web page and then adds new rows of data for each UFO sighting", and use event listeners (specifically from D3.js) to "search through the ```date/time``` column to find rows that match user input".  
 Here is the outcome:  
 
