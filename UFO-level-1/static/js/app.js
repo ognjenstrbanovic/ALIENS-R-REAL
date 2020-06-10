@@ -8,6 +8,7 @@ function loadData(dataset) {
     // The below is a callback fn, one that has no name
     dataset.forEach(function(dataset) {
     var row = tbody.append("tr");
+    // 'Object.entries()' gets the keys and values of what is passed in
     Object.entries(dataset).forEach(function([key, value]) {
         var cell = row.append("td");
         cell.text(value)
