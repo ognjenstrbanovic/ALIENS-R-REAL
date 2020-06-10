@@ -5,6 +5,7 @@ var tableData = data;
 var tbody = d3.select("tbody");
 // Use d3 to append one table row `tr` for each UFO sighting object, 1 cell per UFO sighting value, and update each cell's text with UFO sighting values
 function loadData(dataset) {
+    // The below is a callback fn, one that has no name
     dataset.forEach(function(dataset) {
     var row = tbody.append("tr");
     Object.entries(dataset).forEach(function([key, value]) {
