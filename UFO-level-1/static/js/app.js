@@ -41,6 +41,7 @@ function loadFilteredData(array) {
         });
     });
     oldTBody.parentNode.replaceChild(newTBody, oldTBody);
+    // NOTE: I realize that I am not consistent with using D3.js vs. vanilla JavaScript for DOM manipulation, sorry about this
 };
 // This function is triggered when the button is clicked
 function handleClick(event) {
