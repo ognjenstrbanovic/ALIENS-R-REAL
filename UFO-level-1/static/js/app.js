@@ -1,4 +1,4 @@
-// Using the UFO dataset provided in the form of an array of JavaScript objects, write code that appends a table to your web page and then adds new rows of data for each UFO sighting.
+// INSTRUCTIONS: Using the UFO dataset provided in the form of an array of JavaScript objects, write code that appends a table to your web page and then adds new rows of data for each UFO sighting.
 // from data.js
 var tableData = data;
 // Get a reference to the table body
@@ -15,7 +15,7 @@ function loadData(dataset) {
 };
 loadData(tableData);
 
-// Use a date form in your HTML document and write JavaScript code that will listen for events and search through the date/time column to find rows that match user input.
+// INSTRUCTIONS: Use a date form in your HTML document and write JavaScript code that will listen for events and search through the date/time column to find rows that match user input.
 // Getting a reference to the button on the page with the id property set to `filter-btn`
 // var filterButton = d3.select("#filter-btn");
 var filterButton = document.querySelector("#filter-btn");
