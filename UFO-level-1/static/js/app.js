@@ -27,6 +27,7 @@ function handleEnter() {
     // Prevent the page from refreshing
     d3.event.preventDefault();
     // clear the input value
+    // this uses vanilla JS for the DOM manipulation
     var anonymous = d3.select("#datetime").node().value;
     console.log(anonymous);
     d3.select("#datetime").node().value = "";
@@ -54,7 +55,7 @@ function handleClick(event) {
     var filteredData = tableData.filter(sighting => sighting.datetime === inputValue);
     loadFilteredData(filteredData);
 };
-// We can use the `on` function in d3 to attach an event to the function
+// We can use the `on` function in d3 to attach an event to the function; in this case, 'on click'
 filterButton.addEventListener("click", handleClick);
 d3.select(`#filter-btn`).on("click", handleEnter);
 // Input fields can trigger a change event when new text is entered.
