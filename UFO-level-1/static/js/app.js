@@ -33,9 +33,9 @@ function handleEnter() {
 function loadFilteredData(array) {
     var oldTBody = document.querySelector("tbody");
     var newTBody = document.createElement("tbody");
-    array.forEach(function(obj) {
+    array.forEach(function(myObject) {
         var row = newTBody.insertRow();
-        Object.entries(obj).forEach(function([key, value]) {
+        Object.entries(myObject).forEach(function([key, value]) {
             var cell = row.insertCell();
             cell.innerText = value;
         });
